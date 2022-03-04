@@ -1,13 +1,8 @@
 import React from 'react'
-
-const introStyles = {
-    main: {
-        backgroundColor: "pink",
-    }
-}
+import "./intro.css"
 
 export default function Intro() {
   return (
-    <div style={introStyles.main}>Intro</div>
+    <div className='intro'>Intro</div>
   )
 }

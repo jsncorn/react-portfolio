@@ -1,13 +1,8 @@
 import React from 'react'
-
-const galleryStyles = {
-    main: {
-        backgroundColor: "red",
-    }
-}
+import "./gallery.css"
 
 export default function Gallery() {
   return (
-    <div style={galleryStyles.main}>Gallery</div>
+    <div className='gallery'>Gallery</div>
   )
 }

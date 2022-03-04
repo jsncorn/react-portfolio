@@ -1,13 +1,8 @@
 import React from 'react'
-
-const portfolioStyles = {
-    main: {
-        backgroundColor: "green",
-    }
-}
+import "./portfolio.css"
 
 export default function Portfolio() {
   return (
-    <div style={portfolioStyles.main}>Portfolio</div>
+    <div className='portfolio'>Portfolio</div>
   )
 }
