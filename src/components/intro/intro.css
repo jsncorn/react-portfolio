@@ -51,6 +51,10 @@
       font-size: 30px;
   }
 
+  .introWrap > h3 {
+      font-size: 30px;
+  }
+
   .anchorArrow {
       position: absolute;
       bottom: 5px;
@@ -62,3 +66,20 @@
       justify-content: center;
       width: 100%;
   }
+
+  h3 > span {
+      color: green;
+  }
+
+.ityped-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    100%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
