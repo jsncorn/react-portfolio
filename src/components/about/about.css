@@ -1,3 +1,19 @@
-.about {
-    background-color: pink;
+.aboutWrapper {
+    background-color: white;
+    padding: 15px 40px; 
+    line-height: 2;
+    
+}
+
+.aboutWrapper > h2 {
+    text-align: center;
+}
+
+div > span {
+    padding-left: 40px;
+}
+
+.content  {
+    font-size: 20px;
+
 }
