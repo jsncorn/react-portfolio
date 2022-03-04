@@ -15,4 +15,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galleryContainer > .item {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.item > h3 {
+    position: absolute;
+    font-size: 20px;
 }
