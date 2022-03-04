@@ -12,5 +12,7 @@
 
 .galleryContainer {
     width: 70%;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
