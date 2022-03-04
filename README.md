@@ -2,16 +2,15 @@
 
 A brand new portfolio page made with React.js. It is mobile-friendly with custom media queries (no Bootstrap was used). 
 
+# Intro
+https://user-images.githubusercontent.com/77278027/156723631-74cc7296-ccef-4732-9508-53f68ff41c9a.mp4
 
-https://user-images.githubusercontent.com/77278027/156723621-50a8129a-4b54-4ba3-a1e5-d86a895ed09d.mp4
-
-
-
+# Menu
 https://user-images.githubusercontent.com/77278027/156723628-416e723f-df3a-4676-b762-6497ebf1dd5a.mp4
 
+# Smooth Scroll and Snap
+https://user-images.githubusercontent.com/77278027/156723621-50a8129a-4b54-4ba3-a1e5-d86a895ed09d.mp4
 
-
-https://user-images.githubusercontent.com/77278027/156723631-74cc7296-ccef-4732-9508-53f68ff41c9a.mp4
 
 
 
