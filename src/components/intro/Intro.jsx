@@ -11,8 +11,11 @@ export default function Intro() {
         </div>
       <div className="introRight">
         <div className="introWrap">
-          <h2>Hello my name is</h2>
+          <h2>Hello! I'm</h2>
+          <h1>Jason Ngo</h1>
+          <h3></h3>
           </div>
+          <img src="../assets/down.png" alt="down arrow"/>
         </div>
       </div>
   )
