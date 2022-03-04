@@ -27,7 +27,7 @@ export default function Intro() {
           <h3><span ref={textRef}></span> Developer</h3>
         </div>
         <div className='arrowDiv'>
-          <a className='anchorArrow' href="#portfolio">
+          <a className='anchorArrow' href="#about">
             <img className='downArrow' src="../assets/down.png" alt="down arrow" />
           </a>
         </div>
