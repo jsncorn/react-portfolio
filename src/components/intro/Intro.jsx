@@ -24,7 +24,7 @@ export default function Intro() {
         <div className="introWrap">
           <h2>Hello! I'm</h2>
           <h1>Jason Ngo</h1>
-          <h3><span ref={textRef}></span> Developer</h3>
+          <h3><span ref={textRef}></span>Developer</h3>
         </div>
         <div className='arrowDiv'>
           <a className='anchorArrow' href="#about">

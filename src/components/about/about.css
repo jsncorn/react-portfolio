@@ -1,8 +1,6 @@
 .aboutWrapper {
-    background-color: white;
-    padding: 15px 40px; 
+    background-color: white; 
     line-height: 2;
-    
 }
 
 .aboutWrapper > h2 {
@@ -15,5 +13,23 @@ div > span {
 
 .content  {
     font-size: 20px;
+    padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+.aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 2;
+    padding: 0 2px;
+}
+.aboutWrapper > h2 {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+}
 
 }
