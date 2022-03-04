@@ -12,7 +12,7 @@ export default function Portfolio() {
         <div className="item">
           <img src="https://github.com/jsncorn/portfolio-v3/blob/main/public/photos/Screenshot%202022-02-18%20165100.png?raw=true" alt="" />
           <h3>Node: Employee Tracker</h3>
-          <a href="https://github.com/jsncorn/employee-tracker" target="_blank" className='gitOnlyIcon'><GitHub /></a>
+          <a href="https://github.com/jsncorn/employee-tracker" className='gitOnlyIcon'><GitHub /></a>
         </div>
 
         <div className="item">
@@ -34,19 +34,19 @@ export default function Portfolio() {
         </div>
 
         <div className="item">
-          <img src="assets/ecommerce-demo.png" alt="" />
+          <img src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/ecommerce-demo.png?raw=true" alt="" />
           <h3>Backend: eCommerce Backend</h3>
           <a href="https://github.com/jsncorn/ecommerce-backend" className='gitOnlyIcon'><GitHub /></a>
         </div>
 
         <div className="item">
-          <img src="assets/social-network-code.png" alt="" />
+          <img src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/social-network-code.png?raw=true" alt="" />
           <h3>Backend: Social Network API</h3>
           <a href="https://github.com/jsncorn/social-network-api" className='gitOnlyIcon'><GitHub /></a>
         </div>
 
         <div className="item">
-          <img src="assets/JS-quiz-demo.png" alt="" />
+          <img src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/JS-quiz-demo.png?raw=true" alt="" />
           <h3>JS: Code Quiz</h3>
           <div className="duoIcon">
             <a href="https://github.com/jsncorn/code-quiz"><GitHub/></a>

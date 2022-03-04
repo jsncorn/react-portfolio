@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <div className='contact' id='contact'>
       <div className="contactLeft">
-        <img src="assets/networking.jpg" alt="network web" />
+        <img src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/networking.jpg?raw=true" alt="network web" />
       </div>
       <div className="contactRight">
         <h2>Get In Touch With Me</h2>
