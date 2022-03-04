@@ -64,3 +64,16 @@ button:hover {
 .contactRight > h2 {
     font-size: 30px;
 }
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.red, .green {
+    font-weight: bold;
+    margin-top: 10px;
+}
