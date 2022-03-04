@@ -34,19 +34,19 @@ export default function Portfolio() {
         </div>
 
         <div className="item">
-          <img src="../assets/ecommerce-demo.png" alt="" />
+          <img src="assets/ecommerce-demo.png" alt="" />
           <h3>Backend: eCommerce Backend</h3>
           <a href="https://github.com/jsncorn/ecommerce-backend" className='gitOnlyIcon'><GitHub /></a>
         </div>
 
         <div className="item">
-          <img src="../assets/social-network-code.png" alt="" />
+          <img src="assets/social-network-code.png" alt="" />
           <h3>Backend: Social Network API</h3>
           <a href="https://github.com/jsncorn/social-network-api" className='gitOnlyIcon'><GitHub /></a>
         </div>
 
         <div className="item">
-          <img src="../assets/JS-quiz-demo.png" alt="" />
+          <img src="assets/JS-quiz-demo.png" alt="" />
           <h3>JS: Code Quiz</h3>
           <div className="duoIcon">
             <a href="https://github.com/jsncorn/code-quiz"><GitHub/></a>

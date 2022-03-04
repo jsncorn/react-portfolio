@@ -17,7 +17,7 @@ export default function Intro() {
     <div className='intro' id='intro'>
       <div className="introLeft">
         <div className="selfie">
-          <img src="../assets/selfie.JPG" alt="selfie"></img>
+          <img src="assets/selfie.JPG" alt="selfie"></img>
         </div>
       </div>
       <div className="introRight">
@@ -28,7 +28,7 @@ export default function Intro() {
         </div>
         <div className='arrowDiv'>
           <a className='anchorArrow' href="#about">
-            <img className='downArrow' src="../assets/down.png" alt="down arrow" />
+            <img className='downArrow' src="assets/down.png" alt="down arrow" />
           </a>
         </div>
       </div>
