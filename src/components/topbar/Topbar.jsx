@@ -1,7 +1,13 @@
 import React from 'react'
 
+const topbarStyles = {
+    main: {
+        backgroundColor: "yellow",
+    }
+}
+
 export default function Topbar() {
   return (
-    <div>Topbar</div>
+    <div styles={topbarStyles.main}>Topbar</div>
   )
 }
