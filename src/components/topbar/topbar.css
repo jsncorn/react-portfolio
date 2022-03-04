@@ -1,8 +1,23 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: #00008B;
+    background-color: white;
+    color: green;
     position: fixed;
     top: 0;
     z-index: 2;
+}
+
+.wrapper {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
 }
