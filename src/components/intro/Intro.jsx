@@ -28,7 +28,7 @@ export default function Intro() {
         </div>
         <div className='arrowDiv'>
           <a className='anchorArrow' href="#about">
-            <img className='downArrow' src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/down.png" alt="down arrow" />
+            <img className='downArrow' src="https://github.com/jsncorn/react-portfolio/blob/main/public/assets/down.png?raw=true" alt="down arrow" />
           </a>
         </div>
       </div>
