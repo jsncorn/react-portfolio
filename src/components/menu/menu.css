@@ -1,5 +1,5 @@
 .navMenu {
-    width: 150px;
+    width: 200px;
     height: 50vh;
     background-color: white;
     position: fixed;
@@ -23,11 +23,15 @@ ul {
     padding: 0;
     list-style: none;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 li, a {
     color: green;
     text-decoration: none;
     margin: 20px;
+}
+
+a:hover {
+    font-weight: bold;
 }
