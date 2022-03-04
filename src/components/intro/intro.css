@@ -9,6 +9,7 @@
 
 .introRight {
     flex: .6;
+    position: relative;
 }
 
 .selfie {
@@ -17,7 +18,12 @@
 }
 
 .introWrap {
-
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .downArrow {
@@ -35,4 +41,24 @@
     60% {
       transform: translateY(-7px);
     }
+  }
+
+  .introWrap > h1 {
+      font-size: 60px;
+  }
+
+  .introWrap > h2 {
+      font-size: 30px;
+  }
+
+  .anchorArrow {
+      position: absolute;
+      bottom: 5px;
+      margin: auto;
+  }
+
+  .arrowDiv {
+      display: flex;
+      justify-content: center;
+      width: 100%;
   }
