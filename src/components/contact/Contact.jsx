@@ -9,8 +9,8 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  setSubmitMessage('Thanks, I will get back to you ASAP!');
-  setValidity("green");
+    setSubmitMessage('Thanks, I will get back to you ASAP!');
+    setValidity("green");
 
 
   }
@@ -32,7 +32,7 @@ export default function Contact() {
           <label for="content">Message</label><br />
           <textarea required name="content" id="content" cols="45" rows="6" placeholder="Message" />
           <button type="submit">Send</button>
-          { submitMessage && <span className={validity}>{submitMessage}</span>}
+          {submitMessage && <span className={validity}>{submitMessage}</span>}
         </form>
       </div>
     </div>

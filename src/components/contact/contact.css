@@ -3,7 +3,8 @@
     display: flex;
 }
 
-.contactLeft, .contactRight {
+.contactLeft,
+.contactRight {
     flex: .5;
 }
 
@@ -20,7 +21,7 @@
     justify-content: center;
 }
 
-.contactRight > form {
+.contactRight>form {
     width: 70%;
     height: 70%;
     display: flex;
@@ -29,7 +30,8 @@
     justify-content: center;
 }
 
-input, textarea {
+input,
+textarea {
     width: 300px;
     font-size: 16px;
 }
@@ -61,7 +63,7 @@ button:hover {
     background-color: darkgreen;
 }
 
-.contactRight > h2 {
+.contactRight>h2 {
     font-size: 30px;
 }
 
@@ -73,7 +75,8 @@ button:hover {
     color: green;
 }
 
-.red, .green {
+.red,
+.green {
     font-weight: bold;
     margin-top: 10px;
 }
@@ -84,22 +87,30 @@ button:hover {
         align-items: center;
         justify-content: center;
     }
+
     .contactLeft {
-        overflow:hidden;
+        overflow: hidden;
         flex: .2;
     }
+
     .contactRight {
         flex-direction: column;
         flex: .8;
         justify-content: space-evenly;
     }
-    label, input, textarea {
+
+    label,
+    input,
+    textarea {
         font-size: 12px;
     }
-    input, textarea {
+
+    input,
+    textarea {
         width: 150px;
     }
-    label{ 
+
+    label {
         display: none;
     }
 

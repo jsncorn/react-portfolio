@@ -1,35 +1,36 @@
 .aboutWrapper {
-    background-color: white; 
+    background-color: white;
     line-height: 2;
 }
 
-.aboutWrapper > h2 {
+.aboutWrapper>h2 {
     text-align: center;
 }
 
-div > span {
+div>span {
     padding-left: 40px;
 }
 
-.content  {
+.content {
     font-size: 20px;
     padding: 0 30px;
 }
 
 @media only screen and (max-width: 768px) {
 
-.aboutWrapper {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    line-height: 2;
-    padding: 0 2px;
-}
-.aboutWrapper > h2 {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    overflow: hidden;
-}
+    .aboutWrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        line-height: 2;
+        padding: 0 2px;
+    }
+
+    .aboutWrapper>h2 {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        overflow: hidden;
+    }
 
 }

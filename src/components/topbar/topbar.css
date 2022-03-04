@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-.menu > span {
+.menu>span {
     width: 100%;
     height: 3px;
     background-color: var(--main);
