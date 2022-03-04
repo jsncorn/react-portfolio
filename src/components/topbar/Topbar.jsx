@@ -3,16 +3,16 @@ import "./topbar.css"
 
 export default function Topbar() {
   return (
-    <div className="topbar">
+    <div className="topbar active">
         <div className='wrapper'>
           <div className="left">
             <a href="#intro" className='logo'>jason ngo</a>
             </div>
           <div className="right">
             <div className="menu">
-              <span></span>
-              <span></span>
-              <span></span>
+              <span className='lineOne'></span>
+              <span className='lineTwo'></span>
+              <span className='lineThree'></span>
               </div>
             </div>
           </div>
