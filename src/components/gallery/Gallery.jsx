@@ -6,10 +6,38 @@ export default function Gallery() {
     <div className='gallery' id='gallery'>
       <h1>Gallery</h1>
       <div className="galleryContainer">
+
         <div className="item">
-          <img src="" alt=""/></div>
+          <img src="" alt="" />
           <h3>Project Title</h3>
         </div>
+
+        <div className="item">
+          <img src="" alt="" />
+          <h3>Project Title</h3>
+        </div>
+
+        <div className="item">
+          <img src="" alt="" />
+          <h3>Project Title</h3>
+        </div>
+
+        <div className="item">
+          <img src="" alt="" />
+          <h3>Project Title</h3>
+        </div>
+
+        <div className="item">
+          <img src="" alt="" />
+          <h3>Project Title</h3>
+        </div>
+
+        <div className="item">
+          <img src="" alt="" />
+          <h3>Project Title</h3>
+        </div>
+        
       </div>
+    </div>
   )
 }
