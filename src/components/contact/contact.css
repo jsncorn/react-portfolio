@@ -1,3 +1,14 @@
 .contact {
     background-color: white;
+    display: flex;
+}
+
+.contactLeft, .contactRight {
+    flex: .5;
+}
+
+.contactLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
