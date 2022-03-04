@@ -7,6 +7,7 @@ import "./App.scss"
 import Footer from "./components/footer/Footer";
 import Menu from "./components/menu/Menu";
 import {useState } from 'react';
+import Resume from './components/resume/resume';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
+        <Resume />
       </div>
       <Footer />
     </div>
