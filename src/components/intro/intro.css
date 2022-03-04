@@ -3,6 +3,10 @@
     display: flex;
 }
 
+.introLeft > .selfie {
+    padding-left: 10px;
+}
+
 .introLeft {
     flex: .4;
 }
