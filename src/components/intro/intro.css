@@ -76,7 +76,7 @@
 }
 
 @keyframes blink {
-    100%{
+    100% {
         opacity: 0;
     }
     50% {
