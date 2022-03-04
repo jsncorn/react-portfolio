@@ -15,7 +15,7 @@ export default function Intro() {
           <h1>Jason Ngo</h1>
           <h3></h3>
           </div>
-          <img src="../assets/down.png" alt="down arrow"/>
+          <img className='downArrow' src="../assets/down.png" alt="down arrow"/>
         </div>
       </div>
   )
