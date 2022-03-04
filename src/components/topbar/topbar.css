@@ -1,8 +1,12 @@
+:root {
+    --main: green;
+}
+
 .topbar {
     width: 100%;
     height: 70px;
     background-color: white;
-    color: green;
+    color: var(--main);
     position: fixed;
     top: 0;
     z-index: 2;
@@ -20,4 +24,18 @@
     font-weight: bold;
     color: inherit;
     text-decoration: none;
+}
+
+.menu {
+    width: 25px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu > span {
+    width: 100%;
+    height: 3px;
+    background-color: var(--main);
 }
