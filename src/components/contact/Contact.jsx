@@ -17,7 +17,7 @@ export default function Contact() {
           <label for="subject">Subject</label><br />
           <input type="subject" id="subject" placeholder="Subject" /><br />
           <label for="content">Message</label><br />
-          <textarea name="content" id="content" cols="20" rows="4" placeholder="Message" />
+          <textarea name="content" id="content" cols="45" rows="6" placeholder="Message" />
           <button type="submit">Send</button>
         </form>
       </div>
