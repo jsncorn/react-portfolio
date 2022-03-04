@@ -1,9 +1,9 @@
 import React from 'react';
 import "./menu.css";
 
-export default function Menu() {
+export default function Menu({menuOpen, setMenuOpen}) {
     return (
-        <div className='menu'>
+        <div className={"navMenu " + (menuOpen && "active")}>
             <ul>
                 <li>
                     <a href='#intro'>Home</a>
