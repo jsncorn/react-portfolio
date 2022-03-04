@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Gallery from "./components/gallery/Gallery";
 import Contact from "./components/contact/Contact";
 import "./App.scss"
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Gallery />
         <Contact />
         </div>
+        <Footer />
     </div>
   );
 }
