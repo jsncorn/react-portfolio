@@ -1,13 +1,13 @@
 import React from 'react'
-import "./gallery.css"
+import "./portfolio.css"
 import { GitHub, OpenInBrowser } from "@mui/icons-material";
 
 
-export default function Gallery() {
+export default function Portfolio() {
   return (
-    <div className='gallery' id='gallery'>
-      <h1>Gallery</h1>
-      <div className="galleryContainer">
+    <div className='portfolio' id='portfolio'>
+      <h1>Portfolio</h1>
+      <div className="portfolioContainer">
 
         <div className="item">
           <img src="https://github.com/jsncorn/portfolio-v3/blob/main/public/photos/Screenshot%202022-02-18%20165100.png?raw=true" alt="" />
