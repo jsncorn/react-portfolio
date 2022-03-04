@@ -1,3 +1,12 @@
 .intro {
-    background-color: lightgreen;
+    background-color: white;
+    display: flex;
+}
+
+.introLeft {
+    flex: .3;
+}
+
+.introRight {
+    flex: .7;
 }
