@@ -2,7 +2,9 @@ import React from 'react'
 
 const topbarStyles = {
     main: {
-        backgroundColor: "yellow",
+        backgroundColor: "#00008B",
+        width: "100%",
+        height: "70px",
     }
 }
 
