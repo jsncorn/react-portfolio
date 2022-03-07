@@ -1,6 +1,6 @@
 .navMenu {
-    width: 200px;
-    height: 50vh;
+    width: 150px;
+    height: 40vh;
     background-color: white;
     position: fixed;
     top: -500px;
@@ -14,7 +14,7 @@
 }
 
 .navMenu.active {
-    top: 0px;
+    top: 75px;
 }
 
 ul {
@@ -24,6 +24,7 @@ ul {
     list-style: none;
     font-size: 30px;
     font-weight: 500;
+    overflow: hidden;
 }
 
 li,
