@@ -23,13 +23,13 @@ export default function Contact() {
       <div className="contactRight">
         <h2>Get In Touch With Me</h2>
         <form onSubmit={handleSubmit}>
-          <label for="name">Your Name</label><br />
+          <label htmlFor="name">Your Name</label><br />
           <input required type="text" id="name" placeholder='First and Last' /><br />
-          <label for="email">Email</label><br />
+          <label htmlFor="email">Email</label><br />
           <input required type="email" id="email" placeholder="Email" /><br />
-          <label for="subject">Subject</label><br />
+          <label htmlFor="subject">Subject</label><br />
           <input required type="subject" id="subject" placeholder="Subject" /><br />
-          <label for="content">Message</label><br />
+          <label htmlFor="content">Message</label><br />
           <textarea required name="content" id="content" cols="45" rows="6" placeholder="Message" />
           <button type="submit">Send</button>
           {submitMessage && <span className={validity}>{submitMessage}</span>}

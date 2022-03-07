@@ -4,7 +4,7 @@ import './resume.css';
 
 export default function resume() {
     return (
-        <div id='resume' class='resume'>
+        <div id='resume' className='resume'>
             <iframe title='resume' src={Resume} width="100%" height="100%" />
         </div>
     )
